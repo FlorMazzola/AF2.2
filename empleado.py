@@ -19,4 +19,3 @@ class Empleado:
         texto = f"Nombre y apellido: {self.nombre} {self.apellido}\n"
         texto += f"DNI: {self.dni} - Salario: {self.salario}\n"
         return texto
-    

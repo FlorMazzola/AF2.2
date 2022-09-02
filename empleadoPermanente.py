@@ -14,8 +14,8 @@ class EmpleadoPermanente(Empleado):
         return mensaje
 
     def coincide(self, texto_a_buscar):
-        mensaje = super().coincide()
-        return mensaje
+        coincide = super().coincide(texto_a_buscar)
+        return coincide
 
     def mostrar_datos(self):
         texto = super().mostrar_datos()

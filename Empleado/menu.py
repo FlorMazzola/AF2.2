@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-from personal import Personal
-from empleadoPermanente import EmpleadoPermanente
-from empleadoEventual import EmpleadoEventual
+from Empleado.personal import Personal
+from Empleado.empleadoPermanente import EmpleadoPermanente
+from Empleado.empleadoEventual import EmpleadoEventual
 import sys
 
 class Menu:

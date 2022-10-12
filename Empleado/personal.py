@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-from empleadoPermanente import EmpleadoPermanente
-from empleadoEventual import EmpleadoEventual
+from Empleado.empleadoPermanente import EmpleadoPermanente
+from Empleado.empleadoEventual import EmpleadoEventual
 
 class Personal:
     def __init__(self):
